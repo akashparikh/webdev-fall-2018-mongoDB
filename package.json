@@ -1,0 +1,21 @@
+{
+  "name": "whiteboarddb",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "npm run server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akash Parikh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13",
+    "nodemon": "^1.17.5",
+    "body-parser": "^1.18.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
